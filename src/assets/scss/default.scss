@@ -1,0 +1,23 @@
+
+// 整体默认颜色
+$defaultColor:#1f87c6;
+// 背景颜色
+$backgroundColor: #f0f0f0; 
+// 套餐活动
+ @mixin imgStyle{
+    width: 100%;
+    border-radius:0.2rem;
+    box-shadow:0.04rem 0.04rem 0.04rem #c8c8c8;
+  }
+  @mixin rightBottomSize{
+     width: 2.45rem;
+     height: 1.9rem;
+  }
+  @mixin titleStyle{
+    font-size:0.32rem;
+    color:#333;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background-color:#fff;
+    padding-left: 0.3rem;
+  }
